@@ -1,0 +1,12 @@
+git:
+  remote: git@github.com:jangcs/model_m7-linux.git
+dvc:
+  remote: gs://cr-model-test/model_m7-linux
+platform:
+  architecture: x86_64
+  os: linux
+  version: ''
+  device: cpu
+model:
+  name: model_m7
+  tag: linux
